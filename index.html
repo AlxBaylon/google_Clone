@@ -14,21 +14,28 @@
         <nav>
             <div><a href="">Gmail</a></div>
             <div><a href="">Im&aacute;genes</a></div>
-            <div><img src="./images/cuadros.png"/><img src="./images/foto_perfil.jpg"/></div>
+            <div>
+                <img id="cuadritos" src="./images/cuadros.png"/>
+                <img id="profile-photo"src="./images/foto_perfil.jpg"/>
+            </div>
         </nav>
     </header>
     <main>
         <div class="logo main-content__element"><img src="./images/googlelogo_color_272x92dp.png"></div>
         <div class="busqueda main-content__element">
-            <div>
+            <div class="busqueda__search">
                 <!-- Aquí debo poner otro cotnenedor -->
-                <img src="./images/busqueda.png">
-                <input type="text">
-                <img src="./images/busqueda_voz.png">
-                <!-- Aquí debo poner otro cotnenedor -->
+                <div class="busqueda__search--block">                
+                    <img src="./images/busqueda.png">
+                    <input type="text">
+                    <img src="./images/busqueda_voz.png">
+                </div>
+                <!-- Aquí debo poner otro cotnenedor|| Ya lo hice-->
             </div>
-            <input type="submit" value="Buscar con Google">
-            <input type="submit" value="Me siento con suerte">
+            <!-- <div> -->
+                <input type="submit" value="Buscar con Google">
+                <input type="submit" value="Me siento con suerte">  
+            <!-- </div> -->
         </div>
         <div class="info main-content__element">
             <p>Ofrecido por Google en: </p>
